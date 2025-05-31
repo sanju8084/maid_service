@@ -1,0 +1,50 @@
+.maid-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .maid-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .maid-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  .maid-card h2 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .maid-card p {
+    margin: 5px 0;
+    color: #555;
+  }
+  .order-button {
+    margin-top: 10px;
+    background-color: #f4763cf4;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .order-button:hover {
+    background-color: #217e88;
+  }
+  .cleaningheading{
+    text-align: center;
+    padding: 20px;
+    color: #e15611;
+  }

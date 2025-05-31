@@ -1,0 +1,76 @@
+/* General Section Styling */
+.service-section {
+    padding: 50px 30px;
+    background-color: #f8f9fa;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  /* Grid Layout for Services */
+  .service-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    /* max-width: 1200px; */
+    margin: 0 auto;
+  }
+  
+  /* Individual Service Card */
+  .service-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Image Styling */
+  .service-image {
+    width: 95%;
+    height: 250px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Text Content */
+  .service-title {
+    font-size: 1.5rem;
+    color: #444;
+    margin: 15px 0 10px;
+  }
+  
+  .service-description {
+    font-size: 1rem;
+    color: #666;
+    padding: 0 10px 15px;
+  }
+  
+  /* Order Button */
+  .order-button {
+    background-color: #f26933de;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  .serviceheading{
+    color: rgba(235, 77, 34, 0.907);
+  }
+  .order-button:hover {
+    background-color: #22888fef;
+  }
+  
